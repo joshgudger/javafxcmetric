@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "build",
+            "command": "javac",
+            "args": [
+                "--module-path", "\"C:/Users/joshgudger/Documents/javafx-sdk-23.0.1/lib\"",
+                "--add-modules", "javafx.controls,javafx.fxml",
+                "-d", "bin",  
+                "App.java"    // Adjust this if App.java is in a subdirectory or package
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
+
+

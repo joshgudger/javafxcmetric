@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MetricConverterGUI",
+            "request": "launch",
+            "mainClass": "MetricConverterGUI",
+            "projectName": "metric_14c2a2fa"
+        },
+        {
+            "type": "java",
+            "name": "Launch MetricConverterApp",
+            "request": "launch",
+            "mainClass": "App",
+            "vmArgs": "--module-path \"C:/Users/joshgudger/Documents/javafx-sdk-23.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
+
